@@ -15,7 +15,14 @@ const category = {
 }
 
 btn.addEventListener("click",generateQoute);
+window.addEventListener("keypress", function(event) {
+    if (event.key === "Enter") {
+        generateQoute();
+    }
+  });
+
 generateQoute();
+
 async function generateQoute() {
     try {
         qoutes.style.display = "none" ;
