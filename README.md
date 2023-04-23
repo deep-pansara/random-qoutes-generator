@@ -10,3 +10,4 @@
 </picture>
 
 # random-qoutes-generator
+There some miner problems to fix like on network error it shows loading cat gif, so we can remove that type of loading on network error.
